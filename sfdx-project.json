@@ -1,0 +1,19 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    }
+  ],
+  "name": "sample-replacements",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "55.0",
+  "replacements": [
+    {
+      "filename": "force-app/main/default/classes/DemoClass.cls-meta.xml",
+      "regexToReplace": "<apiVersion>\\d+\\.0</apiVersion>",
+      "replaceWithFile": "replacementFiles/latest-api-version.txt"
+    }
+  ]
+}
