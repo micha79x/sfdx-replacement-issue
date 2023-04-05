@@ -11,7 +11,7 @@
   "sourceApiVersion": "55.0",
   "replacements": [
     {
-      "filename": "force-app/main/default/classes/DemoClass.cls-meta.xml",
+      "filename": "force-app\\main\\default\\classes\\DemoClass.cls-meta.xml",
       "regexToReplace": "<apiVersion>\\d+\\.0</apiVersion>",
       "replaceWithFile": "replacementFiles/latest-api-version.txt"
     }
